@@ -3,109 +3,84 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Portfólio - Vitor Lucas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Vitor Lucas</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=MedievalSharp&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Sekuya&display=swap');
-    </style>
 </head>
 
 <body>
-
     <header>
         <h1>Vitor Lucas</h1>
         <p>Estudante de Informática</p>
-        <div class="menu">
-            <div class="nomeee">
-                <h1>Vitor Lucas</h1>
-            </div>
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
         <nav>
-            <a href="index.html">Início</a>
-            <a href="sobre.html">Sobre Mim</a>
+            <a href="index.html" class="ativo" aria-current="page">Início</a>
+            <a href="sobre.html">Sobre mim</a>
             <a href="contato.html">Contato</a>
         </nav>
     </header>
-
     <main>
         <section class="apresentacao">
             <div>
+                <p class="detalhe">Aprendizado e prática</p>
                 <h2>Olá, eu sou Vitor Lucas!</h2>
-                <p>
-                    Estudante de Informática, apaixonado por tecnologia e programação. <br> Estou sempre em busca de
-                    aprender
-                    novas habilidades e aprimorar meus conhecimentos na área de desenvolvimento web.
-                </p>
+                <p>Sou estudante de Informática, apaixonado por tecnologia e programação. Estou sempre em busca de
+                    aprender novas habilidades e aprimorar meus conhecimentos em desenvolvimento web.</p>
+                <a class="botao" href="sobre.html">Conheça minha história</a>
             </div>
-
-            <img src="img/foto.jpg" alt="Foto de Vitor Lucas">
+            <img src="img/programacao.svg" alt="Ilustração de um notebook com código de programação">
         </section>
-
         <section>
             <h2>Tecnologias que conheço</h2>
             <div class="lista">
-                <div class="ferramenta">
+                <div class="card">
+                    <img src="img/python.svg" alt="" width="52" height="52">
                     <h3>Python</h3>
                     <p>Uso para estudar programação básica.</p>
                 </div>
-
-                <div class="ferramenta">
+                <div class="card">
+                    <img src="img/php.svg" alt="" width="52" height="52">
                     <h3>PHP</h3>
                     <p>Uso para criar sistemas e trabalhar com páginas web.</p>
                 </div>
-
-                <div class="ferramenta">
+                <div class="card">
+                    <img src="img/javascript.svg" alt="" width="52" height="52">
                     <h3>JavaScript</h3>
                     <p>Tenho conhecimento básico e estou aprendendo mais.</p>
                 </div>
-
-                <div class="ferramenta">
+                <div class="card">
+                    <img src="img/html-css.svg" alt="" width="52" height="52">
                     <h3>HTML e CSS</h3>
                     <p>Uso para criar e organizar páginas de sites.</p>
                 </div>
             </div>
         </section>
-
         <section>
             <h2>Ferramentas que uso</h2>
-
             <div class="lista">
-                <div class="ferramenta">
+                <div class="card">
+                    <img src="img/vscode.svg" alt="" width="52" height="52">
                     <h3>VS Code</h3>
                     <p>Editor que uso para escrever meus códigos.</p>
                 </div>
-
-                <div class="ferramenta">
+                <div class="card">
+                    <img src="img/github.svg" alt="" width="52" height="52">
                     <h3>GitHub</h3>
                     <p>Uso para guardar e compartilhar meus projetos.</p>
                 </div>
             </div>
         </section>
-
-        <section>
+        <section class="projetos">
+            <p class="detalhe">Do estudo ao código</p>
             <h2>Meus projetos</h2>
-
-            <p>
-                <a class="botao" href="https://github.com/vitor-lucas" target="_blank">
-                    Meu GitHub
-                </a>
-            </p>
-
-            <p>
-                <a class="botao" href="https://github.com/vitor-lucas/php.git" target="_blank">
-                    Exercício de PHP
-                </a>
-            </p>
+            <p>Conheça meus projetos e as atividades desenvolvidas na disciplina de PHP.</p>
+            <a class="botao" href="https://github.com/vitor-lucas">Meu GitHub</a>
+            <a class="botao" href="https://github.com/vitor-lucas/php">Atividades de PHP</a>
         </section>
     </main>
-
     <footer>
-        <p>Vitor Lucas - 2026 - Informática</p>
+        <p>Vitor Lucas - 2026 - Portfólio de HTML/CSS</p>
     </footer>
-
 </body>
 
 </html>
