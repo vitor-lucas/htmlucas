@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8ff;
+    color: #222;
+    margin: 0;
+}
+
+header {
+    background-color: #5593e4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.apresentacao img,
+.sobre img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #1e5aa8;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.lista div {
+    width: 200px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #f4f8ff;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #1e5aa8;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #17477f;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: #0a2340;
+}
+
+.ferramenta {
+    background-color: #89b8ff;
+    border-radius: 5px;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nomeee {
+    display: flexbox;
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.contato a {
+    color: #1e5aa8;
+}
+
+footer {
+    background-color: #1e5aa8;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Fontes */
+.sekuya-regular {
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
