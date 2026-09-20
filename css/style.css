@@ -18,17 +18,19 @@ header, footer {
 }
 
 header {
-    border-bottom: 4px solid #e7b779;
+    border-bottom: 5px solid #4e98ffcb;
 }
 
-h1 {
+header h1 {
     margin: 0;
-    font-size: 32px;
+    font-size: 50px;
+    font-family: arial black, sans-serif;
 }
 
 header p {
-    margin: 5px 0 20px;
+    margin: 4px 0 20px;
     color: #d6e2f4;
+    font-size: 15px;
 }
 
 nav {
@@ -39,17 +41,25 @@ nav {
 }
 
 nav a {
+    padding: 10px 20px;
+    background-color: #223e61;
     color: white;
-    text-decoration: none;
-    padding: 8px 20px;
     border: 1px solid #70829c;
     border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-nav a:hover, nav .ativo {
-    background-color: white;
+nav a:hover,
+nav a.ativo {
+    background-color: #79c4e7;
     color: #172d4b;
-    border-color: white;
+    border-color: #062cc6;
+}
+
+nav a:focus {
+    outline: 2px solid white;
+    outline-offset: 3px;
 }
 
 main {
@@ -132,6 +142,7 @@ img {
     width: 52px;
     height: 52px;
     margin-bottom: 16px;
+    border-radius: 10%;
 }
 
 .card p {
@@ -164,7 +175,7 @@ a {
 }
 
 .projetos {
-    border-left: 5px solid #d9a25d;
+    border-left: 5px solid #000f4d;
 }
 
 li {
