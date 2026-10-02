@@ -233,26 +233,49 @@ footer p {
     text-align: center;
 }
 
-@media (max-width: 650px) {
-    .logo-header {
-        width: 260px;
-        margin-bottom: 20px;
-    }
+.pagsecret {
+    width: 90%;
+    max-width: 1080px;
+    margin: 32px auto;
+    background-color: #f3f5f9;
+    color: #485469;
+    line-height: 1.7;
+}
 
-    .foto-perfil {
-        flex: none;
-        width: 240px;
-    }
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: start;
+    gap: 24px;
+}
 
-    section {
-        padding: 22px;
-    }
+.moldura {
+    min-width: 0;
+    margin: 0;
+    padding: 10px 10px 0;
+    background: #fff;
+    border: 1px solid #c4d8f3;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(23, 45, 75, .08);
+}
 
-    .apresentacao {
-        flex-direction: column;
-    }
+.moldura img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 430px;
+    margin: 0 auto;
+    object-fit: contain;
+    border-radius: 6px;
+}
 
-    .apresentacao h2 {
-        font-size: 28px;
-    }
+.moldura figcaption {
+    padding: 14px 6px 16px;
+    color: #172d4b;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    overflow-wrap: anywhere;
 }
