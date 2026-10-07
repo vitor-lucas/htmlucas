@@ -51,10 +51,6 @@ header h1 {
     transform: translate(-9.15%, -25.75%);
 }
 
-.logo-header:focus-visible {
-    outline: 3px solid white;
-    outline-offset: 5px;
-}
 
 nav {
     display: flex;
